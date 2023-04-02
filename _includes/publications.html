@@ -7,7 +7,7 @@
       {% endfor %}
     {% else %}
       {% for item in site.data.publications.index %}
-        <p><i class="fa fa-book"></i> <a href="{{ item.url }}">{{ item.name }}</a><br><i class="fa fa-group"></i> Authors: {{ item.authors }} <br>Year: {{ item.year }}<br>Status: {{ item.status }}</p>
+        <p><i class="fa fa-book"></i> <a href="{{ item.url }}">{{ item.name }}</a><br><i class="fa fa-users"></i> Authors: {{ item.authors }} <br>Year: {{ item.year }}<br>Status: {{ item.status }}</p>
       {% endfor %}
     {% endif %}
   </div>
