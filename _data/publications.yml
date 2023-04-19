@@ -3,4 +3,5 @@ featured:
 
 
 index:
+- {name: "The Physics of Indirect Estimators of Lyman Continuum Escape and their Application to High-Redshift JWST Galaxies", authors: '<b>Nicholas Choustikov</b>, Harley Katz, Aayush Saxena, Alex J. Cameron, Julien Devriendt, Adrianne Slyz, Joki Rosdahl, Jeremy Blaizot, Leo Michel-Dansac', year: '2023', status: 'Submitted to MNRAS', url: 'https://arxiv.org/abs/2304.08526'}
 - {name: "The Einstein Toolkit: A Student's Guide", authors: '<b>Nicholas Choustikov</b>', year: '2020', status: 'Published on arXiv', url: 'https://arxiv.org/abs/2011.13314'}
