@@ -34,7 +34,7 @@ show_aboutme_card: true
 # about_me_title: The will be displayed as the title in the About Me section
 about_me_title: Welcome!
 # about_me_description: This will be displayed under the title.
-about_me_description: I use supercomputer-run simulations and the James Webb Space Telescope to study how black hole and stellar feedback affect the interstellar medium and spectroscopic properties of galaxies in the early Universe.
+about_me_description: I use supercomputer-run simulations and the James Webb Space Telescope to study how the ioising radiation, kinetic energy and magnetic fields of the first stars and active black holes affect the interstellar medium and spectroscopic properties of galaxies in the early Universe.
 
 # SKILLS SECTION
 # show_skills_card:
@@ -79,9 +79,9 @@ os_projects_title: Open Source Projects
 # > setting this to false, will omit the Contact section
 show_contact_card: true
 # contact_title: The will be displayed as the title in the Contact section
-contact_title: Contact
+contact_title: Get in touch with me
 # contact_description: This will be displayed under the title.
-contact_description: Blah blah you can contact me here
+contact_description: Please reach out if you're keen to collaborate on something!
 
 # GITHUB-METADATA
 # Set this to your forked repository

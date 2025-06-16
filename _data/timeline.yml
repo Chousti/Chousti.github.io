@@ -18,37 +18,26 @@
 #   timeline-side: right
 
 - title: To Be Determined...
-  title-url: 
   date: Sep 2026...
   subtitle: 
   timeline-side: right
 
+- title: University of Oxford
+  date: Sep 2022 - Present
+  subtitle: DPhil in Astrophysics + Graduate Teaching & Research Scholar
+  timeline-side: right
+
 - title: Princeton University
-  title-url: 
   date: Mar 2024 - Sep 2024
   subtitle: Long Term Attachment
   timeline-side: left
 
-- title: Oriel College, University of Oxford
-  title-url: 
-  date: Sep 2023 - Present
-  subtitle: Graduate Teaching & Research Scholar
-  timeline-side: right
-
-- title: Oriel College, University of Oxford
-  title-url: 
-  date: Sep 2022 - Present
-  subtitle: DPhil in Astrophysics
-  timeline-side: left
-
-- title: Fitzwilliam College, University of Cambridge
-  title-url: 
+- title: University of Cambridge
   date: Oct 2018 - Jul 2022
   subtitle: Ma (Cantab) + Msci in Natural Sciences
   timeline-side: right
 
 - title: I was born
-  title-url: 
   date: 10 June 1999
   subtitle: Auckland, New Zealand
   timeline-side: left
