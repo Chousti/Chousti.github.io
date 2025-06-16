@@ -14,7 +14,7 @@ baseurl: ""
 username: Nicholas Choustikov
 # typing_text: This will be typed before 'scroll down for more'.
 # > set this to your job title, e.g. Fullstack Developer
-typing_text: Astrophysicist
+typing_text: Astrophysicist.
 # email: Your E-Mail address for the email button.
 email: nicholas.choustikov@physics.ox.ac.uk
 # For every social button you want to display, set your username or userid
