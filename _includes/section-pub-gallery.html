@@ -1,6 +1,7 @@
-{% if site.show_projects %}
+{% if site.show_pubgallery %}
   <h1 class="title"><span>{{site.project_gallery_title}}</span></h1>
-  <div class="projects-wrapper">
+  <div class="pubgal-wrapper">
+
     {% for project in site.data.pub_gallery %}
       <div class="project neumorphism-card" data-aos="zoom-in-down">
         <div class="name-link-wrapper">
@@ -21,5 +22,7 @@
         {% endif %}
       </div>
     {% endfor %}
+
+    
   </div>
 {% endif %}
