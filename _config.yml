@@ -36,7 +36,7 @@ show_aboutme_card: true
 # about_me_title: The will be displayed as the title in the About Me section
 about_me_title: Welcome!
 # about_me_description: This will be displayed under the title.
-about_me_description: I am a third year Astrophysics DPhil Student at the University of Oxford, working with Julien Devriendt and Adrianne Slyz. <br> I use supercomputer-run simulations and the James Webb Space Telescope to study how the ioising radiation, magnetic fields, and kinetic feedback of the first stars and active black holes affect the interstellar medium and spectroscopic properties of galaxies in the early Universe.
+about_me_description: I am an Astrophysics DPhil Student at the University of Oxford, working with Julien Devriendt and Adrianne Slyz. <br> I use supercomputer-run simulations and the James Webb Space Telescope to study how the ioising radiation, magnetic fields, and kinetic feedback of the first stars and active black holes affect the interstellar medium and spectroscopic properties of galaxies in the early Universe.
 
 # SKILLS SECTION
 # show_skills_card:
