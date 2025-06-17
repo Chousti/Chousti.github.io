@@ -117,6 +117,11 @@ var pJS = function(tag_id, params) {
           distance: 200,
           duration: 0.4
         },
+        attract: {
+         distance: 200,
+         duration: 0.004,
+         factor: 100,
+       },
         push: {
           particles_nb: 4
         },
@@ -617,6 +622,10 @@ var pJS = function(tag_id, params) {
         pJS.fn.modes.grabParticle(p);
       }
 
+      if (isInArray('attract', pJS.interactivity.events.onhover.mode)) {
+         pJS.fn.modes.attractParticle(p);
+       }
+
       if (
         isInArray('bubble', pJS.interactivity.events.onhover.mode) ||
         isInArray('bubble', pJS.interactivity.events.onclick.mode)
@@ -1046,6 +1055,46 @@ var pJS = function(tag_id, params) {
       }
     }
   };
+
+  pJS.fn.modes.attractParticle = function(p) {
+   if (
+     pJS.interactivity.events.onhover.enable &&
+     isInArray('attract', pJS.interactivity.events.onhover.mode) &&
+     pJS.interactivity.status == 'mousemove'
+   ) {
+     var dx_mouse = p.x - pJS.interactivity.mouse.pos_x,
+       dy_mouse = p.y - pJS.interactivity.mouse.pos_y,
+       dist_mouse = Math.sqrt(dx_mouse * dx_mouse + dy_mouse * dy_mouse);
+
+     var normVec = { x: dx_mouse / dist_mouse, y: dy_mouse / dist_mouse },
+       attractradius = pJS.interactivity.modes.attract.distance,
+       velocity = 100,
+       attractfactor = clamp(
+         1 /
+         attractradius *
+           (-1 * Math.pow(dist_mouse / attractradius, 2) + 1) *
+           attractradius *
+           velocity/pJS.interactivity.modes.attract.factor,
+         0,
+         50
+       );
+
+     var pos = {
+       x: p.x - normVec.x * attractfactor,
+       y: p.y - normVec.y * attractfactor
+     };
+
+     if (pJS.particles.move.out_mode == 'bounce') {
+       if (pos.x - p.radius > 0 && pos.x - p.radius < pJS.canvas.w)
+         p.x = pos.x;
+       if (pos.y - p.radius > 0 && pos.y - p.radius < pJS.canvas.h)
+         p.y = pos.y;
+     } else {
+       p.x = pos.x;
+       p.y = pos.y;
+     }
+   }
+ };
 
   pJS.fn.modes.grabParticle = function(p) {
     if (
