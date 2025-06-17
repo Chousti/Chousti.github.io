@@ -119,8 +119,8 @@ var pJS = function(tag_id, params) {
         },
         attract: {
          distance: 200,
-         duration: 0.004,
-         factor: 100,
+         duration: 0.4,
+         factor: 1,
        },
         push: {
           particles_nb: 4

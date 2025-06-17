@@ -113,7 +113,7 @@ a {
     #00000020 80%
   );
   box-shadow: -4px -3px 2px 0 #28a8c8,
-    4px 4px 2px 0 #28a8c8;
+    4px 4px 2px 0 #28a8c8; /*Just the timeline titles*/
 }
 
 @mixin neumorphism-button-pressed {
@@ -132,7 +132,7 @@ a {
 
 .neumorphism-card {
   box-shadow: 2px 2px 4px #000000,
-    -2px -2px 4px #000000;
+    -2px -2px 4px #000000; /*all of the pressed buttons*/
 }
 
 .neumorphism-card-big {
