@@ -13,27 +13,33 @@
 #     - tag: AngularJS
 #     - tag: Node
 
+- name: A novel AGN model for high-redshift simulations&:; radiative transfer and magnetic fields
+  descr: Recent observations from JWST have suggested that active black holes (AGN) are ubiquitous in the early universe. Therefore, it is crucial that they are included in the next generation of high-resolution simulations of galaxy formation in the early universe. I am developing a novel AGN model which hopes to couple a physically-motivated AGN model to both magnetic fields and on the fly radiative transfer, with the goal to run alongside the non-equilibrium photochemistry and chemical network first used in the MEGATRON simulations.<br>Stay tuned for results...
+  demo: 
+  demotext: 
+  imagepath:
+
 - name: Exploring the non-equilibrium interstellar media of high-redshift galaxies
-  descr: blah blah
+  descr: Spectroscopic observations of high-redshift galaxies with JWST have unveiled a strange universe. Here, young galaxies are compact and dense with low metallicities and high ionisation parameters in the interstellar medium (ISM). I am leading a project to investigate the impact of star-formation physics and observational bias on these properties, using the first generation of cosmological simulations which trace the non-equilibrium photochemistry and abundances of the ISM while coupled to on-the-fly radiative transfer&:; the MEGATRON simulations.<br>Stay tuned for results...
   demo: 
   demotext: 
   imagepath: 
 
 - name: Tracing the history of reionization with simulation based inference
-  descr: blah blah
+  descr: All previous methods for predicting the escape fraction of Lyman Continuum (LyC) radiation depend on spectroscopic properties. Here, I led a project which developed a novel simulation based inference approach to predicting the escaping ionising luminosity ($\dot{N}_{\rm ion}$) of high-redshift galaxies based on photometry alone. Deploying this approach on public JWST data, we were able to for the first time place constraints on the history of reionization with consistent, galaxy-specific values of $\dot{N}_{\rm ion}$. We also show that UV-faint galaxies play a critical role in the process of reionization.
   demo: https://ui.adsabs.harvard.edu/abs/2025MNRAS.537.2273C/abstract
   demotext: Published in MNRAS
   imagepath: 
   
 
-- name: Lyman-&alpha; properties of Lyman continuum escape
-  descr: blah blah
+- name: Lyman-&alpha; signatures of Lyman continuum escape
+  descr: The resonant Lyman-&alpha; (Ly&alpha;) line encodes a huge amount of physical information about the neutral gas through which it propagates, the same gas which can absorb Lyman Continuum (LyC) radiation before it has a chance to escape. I have led a project which used a rich catalog of resonant-scattered Ly&alpha; spectroscopy of galaxies from the SPHINX simulation to explore the connection between Ly&alpha; features and the LyC escape fraction. Here, I proposed a direct relation between the size of Ly&alpha; halos and the escape fraction, which has recently been observationally corroborated by HST observations.
   demo: https://ui.adsabs.harvard.edu/abs/2024MNRAS.532.2463C/abstract
   demotext: Published in MNRAS
   imagepath: 
 
-- name: Observational signatures of Lyman continuum escape
-  descr: blah blah
+- name: Spectroscopic signatures of Lyman continuum escape
+  descr: Lyman continuum (LyC) escape, as encoded by the escape fraction has historically been a difficult quantity to constrain. I have led a project to test the majority of popular observational LyC indirect diagnostics by using the then-most extensive physically motivated catalog of synthetic observations of high-redshift galaxies from the SPHINX simulation. On top of developing a framework for testing these diagnostics, I proposed a novel composite diagnostic, which was applied to some of the first spectroscopic data from the JWST telescope.  
   demo: https://ui.adsabs.harvard.edu/abs/2024MNRAS.529.3751C/abstract
   demotext: Published in MNRAS
   imagepath: 
