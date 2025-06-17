@@ -3,12 +3,14 @@
 {% for project in site.data.pub_gallery %}
    <div class="project neumorphism-card" data-aos="zoom-in-down">
 
-      {% if project.demo %}
-         <a href="{{project.demo}}">
-         <img src="{{ site.baseurl }}/assets/img/{{project.imagepath}}" width="85%"></a>
-      {% else %}
-         <img src="{{ site.baseurl }}/assets/img/{{project.imagepath}}" width="85%">
-      {% endif %}
+      <center>
+         {% if project.demo %}
+            <a href="{{project.demo}}">
+            <img src="{{ site.baseurl }}/assets/img/{{project.imagepath}}" width="100%"></a>
+         {% else %}
+            <img src="{{ site.baseurl }}/assets/img/{{project.imagepath}}" width="100%">
+         {% endif %}
+      </center>
    </div>
 {% endfor %}
 
