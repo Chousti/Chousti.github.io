@@ -13,14 +13,14 @@
 #     - tag: AngularJS
 #     - tag: Node
 
-- name: A novel AGN model for high-redshift simulations: including radiative transfer and magnetic fields
+- name: A novel AGN model for high-redshift simulations - including radiative transfer and magnetic fields
   descr: Recent observations from JWST have suggested that active black holes (AGN) are ubiquitous in the early universe. Therefore, it is crucial that they are included in the next generation of high-resolution simulations of galaxy formation in the early universe. I am developing a novel AGN model which hopes to couple a physically-motivated AGN model to both magnetic fields and on the fly radiative transfer, with the goal to run alongside the non-equilibrium photochemistry and chemical network first used in the MEGATRON simulations.<br>Stay tuned for results...
   demo: 
   demotext: 
   imagepath:
 
 - name: Exploring the non-equilibrium interstellar medium of high-redshift galaxies
-  descr: Spectroscopic observations of high-redshift galaxies with JWST have unveiled a strange universe. Here, young galaxies are compact and dense with low metallicities and high ionisation parameters in the interstellar medium (ISM). I am leading a project to investigate the impact of star-formation physics and observational bias on these properties, using the first generation of cosmological simulations which trace the non-equilibrium photochemistry and abundances of the ISM while coupled to on-the-fly radiative transfer: the MEGATRON simulations.<br>Stay tuned for results...
+  descr: Spectroscopic observations of high-redshift galaxies with JWST have unveiled a strange universe. Here, young galaxies are compact and dense with low metallicities and high ionisation parameters in the interstellar medium (ISM). I am leading a project to investigate the impact of star-formation physics and observational bias on these properties, using the first generation of cosmological simulations which trace the non-equilibrium photochemistry and abundances of the ISM while coupled to on-the-fly radiative transfer - the MEGATRON simulations.<br>Stay tuned for results...
   demo: 
   demotext: 
   imagepath: 
