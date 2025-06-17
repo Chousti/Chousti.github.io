@@ -1,5 +1,16 @@
 <h1 class="title">{{site.skills_title}}</h1>
-<img src="{{ site.baseurl }}/assets/img/alb01.jpg">
+
+{% for project in site.data.pub_gallery %}
+   <div class="project neumorphism-card" data-aos="zoom-in-down">
+
+      {% if project.demo %}
+         <a href="{{project.demo}}">
+         <img src="{{ site.baseurl }}/assets/img/{{project.imagepath}}" width="100%"></a>
+      {% else %}
+         <img src="{{ site.baseurl }}/assets/img/{{project.imagepath}}" width="100%">
+      {% endif %}
+   </div>
+{% endfor %}
 
 <!-- 
 <img src="{{site.baseurl}}/_includes/alb01.jpg">

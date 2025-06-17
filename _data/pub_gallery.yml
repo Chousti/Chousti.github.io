@@ -13,14 +13,22 @@
 #     - tag: AngularJS
 #     - tag: Node
 
-- name: Photometry project
+- name: MEGATRON ISM
+  descr: Photometry project
+  demo: 
+  imagepath: ism_hero.jpg
+
+- name: PhotoNion
   descr: Photometry project
   demo: https://ui.adsabs.harvard.edu/abs/2025MNRAS.537.2273C/abstract
-
-- name: LyC escape 1
-  descr: LyC escape 1
-  demo: https://ui.adsabs.harvard.edu/abs/2024MNRAS.532.2463C/abstract
+  imagepath: photonion_hero.jpg
 
 - name: LyC escape 2
   descr: LyC escape 2
+  demo: https://ui.adsabs.harvard.edu/abs/2024MNRAS.532.2463C/abstract
+  imagepath: lya_hero.jpg
+
+- name: LyC escape 1
+  descr: LyC escape 1
   demo: https://ui.adsabs.harvard.edu/abs/2024MNRAS.529.3751C/abstract
+  imagepath: lyc_hero.jpg
