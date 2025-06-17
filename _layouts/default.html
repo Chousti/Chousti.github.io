@@ -37,6 +37,11 @@
         {% include section-aboutme.html %}
       </section>
     {% endif %}
+    {%if site.show__pubgallery_card %}
+      <section class="card neumorphism-card-big">
+        {% include section-pub-gallery.html %}
+      </section>
+    {% endif %}
     {%if site.show_projects_card %}
       <section class="card neumorphism-card-big">
         {% include section-projects.html %}
