@@ -19,6 +19,9 @@
             {% endfor %}
           </div>
         {% endif %}
+        {% if project.imagepath %}
+          <img src="{{ site.url }}{{ image.image_path }}"></a>
+        {% endif %}
       </div>
     {% endfor %}
   </div>
