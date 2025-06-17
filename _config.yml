@@ -83,6 +83,11 @@ contact_title: Get in touch
 # contact_description: This will be displayed under the title.
 contact_description: Please reach out if you're keen to collaborate on something!
 
+# project Gallery section
+show_gallery_card: false
+project_gallery_title: Some of my projects
+
+
 # GITHUB-METADATA
 # Set this to your forked repository
 # > e.g. <user>/<user>.github.io
