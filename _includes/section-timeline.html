@@ -49,10 +49,10 @@
               <span class="flag neumorphism-button" data-aos="zoom-in-left">
                {% if event.title-url %}
                   <a href="{{event.title-url}}" target="_blank" rel="noreferrer">
-                     <span style="color: #41e7e2">{{event.title}}</span>
+                     <span>{{event.title}}</span>
                   </a>
                {% else %}
-                  {{event.title}}
+                  <span style="color: #41e7e2">{{event.title}}</span>
                {% endif %}
               </span>
               <span class="time-wrapper" data-aos="zoom-in-left">
