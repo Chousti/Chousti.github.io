@@ -4,11 +4,11 @@
     {% for project in site.data.projects %}
       <div class="project neumorphism-card" data-aos="zoom-in-down">
         <div class="name-link-wrapper">
-          <h3>{{project.name}}</h3>
+          <h3 style="color: #41e7e2">{{project.name}}</h3>
         </div>
         <p class="project-desc">{{project.descr}}</p>
         {% if project.demo %}
-          <a class="highlight-link" href="{{project.demo}}" target="_blank" rel="noreferrer">
+          <a class="highlight-link" href="{{project.demo}}" target="_blank" rel="noreferrer" style="color: #ff847c">
             {{project.demotext}}
           </a>
         {% endif %}
