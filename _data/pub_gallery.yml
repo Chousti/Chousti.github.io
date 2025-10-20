@@ -13,9 +13,14 @@
 #     - tag: AngularJS
 #     - tag: Node
 
-- name: MEGATRON ISM
-  descr: Photometry project
+- name: AGORA test
+  descr: AGN project
   demo: 
+  imagepath: agora_projection.png
+
+- name: MEGATRON ISM
+  descr: MEGATRON ISM project
+  demo: https://ui.adsabs.harvard.edu/abs/2025arXiv251006347C/abstract
   imagepath: ism_hero.jpg
 
 - name: PhotoNion

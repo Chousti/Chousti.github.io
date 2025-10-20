@@ -20,9 +20,9 @@
   imagepath:
 
 - name: Exploring the non-equilibrium interstellar medium of high-redshift galaxies
-  descr: Spectroscopic observations of high-redshift galaxies with JWST have unveiled a strange universe. Here, young galaxies are compact and dense with low metallicities and high ionisation parameters in the interstellar medium (ISM). I am leading a project to investigate the impact of star-formation physics and observational bias on these properties, using the first generation of cosmological simulations which trace the non-equilibrium photochemistry and abundances of the ISM while coupled to on-the-fly radiative transfer - the MEGATRON simulations.<br>Stay tuned for results...
-  demo: 
-  demotext: 
+  descr: Spectroscopic observations of high-redshift galaxies with JWST have unveiled a strange universe. Here, young galaxies are compact and dense with low metallicities and high ionisation parameters in the interstellar medium (ISM). I have led a project to investigate the impact of star-formation physics and observational bias on these properties, using the first generation of cosmological simulations which trace the non-equilibrium photochemistry and abundances of the ISM while coupled to on-the-fly radiative transfer - the MEGATRON simulations.
+  demo: https://ui.adsabs.harvard.edu/abs/2025arXiv251006347C/abstract
+  demotext: Submitted to OJA
   imagepath: 
 
 - name: Tracing the history of reionization with simulation based inference and JWST observations
@@ -42,4 +42,10 @@
   descr: Lyman continuum (LyC) escape, as encoded by the escape fraction has historically been a difficult quantity to constrain. I have led a project to test the majority of popular observational LyC indirect diagnostics by using the then-most extensive physically motivated catalog of synthetic observations of high-redshift galaxies from the SPHINX simulation. On top of developing a framework for testing these diagnostics, I proposed a novel composite diagnostic, which was applied to some of the first spectroscopic data from the JWST telescope.  
   demo: https://ui.adsabs.harvard.edu/abs/2024MNRAS.529.3751C/abstract
   demotext: Published in MNRAS
+  imagepath: 
+
+- name: Optimizing the Evolution of Perturbations in the &Lambda;CDM Universe
+  descr: Perturbation theory is a powerful tool for studying large-scale structure formation in the universe and calculating observables such as the power spectrum or bispectrum. However, simplifying assumptions about gravitational coupling kernels are typically made beyond linear order purely to save on computational cost. In my masters thesis, I presented a novel approach based on the Chebyshev spectral method to compute these kernels to any perturbative order. This approach was shown to be orders of magnitude faster, while providing accurate and reliable results. The code has been made public.
+  demo: https://ui.adsabs.harvard.edu/abs/2023PhRvD.108b3529C/exportcitation
+  demotext: Published in Physical Review D
   imagepath: 
