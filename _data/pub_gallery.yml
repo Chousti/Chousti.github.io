@@ -13,6 +13,11 @@
 #     - tag: AngularJS
 #     - tag: Node
 
+- name: Jet test
+  descr: jet project
+  demo: 
+  imagepath: jet_projection.png
+
 - name: AGORA test
   descr: AGN project
   demo: 
