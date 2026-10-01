@@ -78,13 +78,28 @@ a {
   }
 }
 
-/* Layout */
 
+.profile-photo {
+   width: clamp(10rem, 20vw, 18rem);
+   height: auto;
+ }
+
+/* Layout */
+/*
 .layout {
   margin: 0.5rem;
   max-width: $large-screen;
   padding: 0.5rem 0.5rem;
 }
+*/
+
+.layout {
+   box-sizing: border-box;
+   width: calc(100% - 1rem);
+   max-width: none;
+   margin: 0.5rem auto;
+   padding: 0.5rem;
+ }
 
 .layout .card {
   background: $card-bg-color;
@@ -946,7 +961,7 @@ a {
    }
  }
 }
-}
+
 
 /* Reusable Animations */
 
